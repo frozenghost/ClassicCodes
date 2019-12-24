@@ -98,6 +98,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\SingletonTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
     <Compile Include="Controllers\ValuesControllerTest.cs" />
@@ -109,6 +110,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClassicCodes\ClassicCodes.csproj">
+      <Project>{f97f3f4d-eebd-4d0c-af61-6cfa707ce229}</Project>
+      <Name>ClassicCodes</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DesignPattern\DesignPattern.csproj">
       <Project>{2B914947-0BE9-41EF-AF29-AF66E0B87264}</Project>
       <Name>DesignPattern</Name>
